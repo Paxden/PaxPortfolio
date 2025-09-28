@@ -1,0 +1,103 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Face Recognition Attendance App",
+    description:
+      "A face recognition–based attendance system I built from scratch as a solo developer. The app allows users’ attendance to be marked automatically through facial recognition. I designed and implemented the backend with Express, MongoDB, and Face API, integrated cloud storage with AWS S3 and Cloudinary, and set up email notifications via AWS SES and NodeMailer. The frontend was developed with React.js for a smooth user experience. Deployed and managed with PM2 for reliable performance.",
+    tools: [
+      "Express",
+      "MongoDB",
+      "OpenAI API",
+      "AWS SES",
+      "AWS S3",
+      "Node Mailer",
+      "Face Api",
+      "Cloudinary",
+      "ESM",
+      "PM2",
+      "Reactjs",
+    ],
+    role: "Full Stack (SOLO)",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 2,
+    name: "Visitor Management System",
+    description:
+      "A full-stack Visitor Management System I independently designed and developed. The app streamlines visitor registration, host assignment, and departmental management. It supports photo uploads, cloud storage, real-time notifications, and secure authentication. I built the backend with Express, MongoDB, and Node.js, integrated Face API for identity verification, and implemented email notifications with NodeMailer. The frontend was developed using React.js, Redux, Bootstrap, and custom UI components for a seamless user experience. Media handling was managed via AWS S3 and Cloudinary/Multer. Deployed for production with reliability and scalability in mind.",
+    tools: [
+      "ReactJs",
+      "Bootstrap CSS",
+      "Face Api",
+      "Lottifiles",
+      "JavaScript",
+      "MongoDB",
+      "AWS S3",
+      "Cloudinary/Multer",
+      "node Mailer",
+      "Redux",
+      "Express",
+      "NodeJs",
+      "UiVerse",
+    ],
+    role: "Full Stack Developer (SOLO)",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    name: "School Student Portal",
+    description:
+      "A full-stack School Student Portal I developed independently to simplify student management and enhance learning experiences. The platform includes role-based authentication, subscription plans, Stripe-powered payment integration, and automated scheduling with Cron jobs. I built the backend with Express, MongoDB, Mongoose, and integrated AI features using OpenAI API and Replicate for image processing. The frontend was developed with React, Bootstrap, SCSS, and Redux for state management, ensuring a responsive and user-friendly interface.",
+    tools: [
+      "React",
+      "Bootstrap",
+      "SCSS",
+      "Stripe",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "OpenAI API",
+      "Redux",
+      "React",
+      "JWT",
+    ],
+    code: "",
+    role: "Full Stack Developer (SOLO)",
+    demo: "",
+  },
+  {
+    id: 4,
+    name: "Pet Shop",
+    description:
+      "A cross-platform mobile application for managing pet products, services, and customer interactions. I developed the app using React Native to ensure seamless performance on both iOS and Android. The app features user authentication, product browsing, cart and checkout, order tracking, and push notifications. The backend was built with Express and MongoDB, integrated with Stripe for secure payments, Cloudinary for media handling, and Firebase for real-time notifications. Deployed with scalability in mind, the app provides pet owners with a smooth and engaging shopping experience.",
+    tools: [
+      "React Native",
+      "Expo",
+      "Redux",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Stripe",
+      "Firebase",
+      "Node.js",
+    ],
+    role: "Full Stack Mobile Developer (Solo)",
+    code: "",
+    demo: "",
+  },
+];
+
+// Do not remove any property.
+// Leave it blank instead as shown below
+
+// {
+//     id: 1,
+//     name: '',
+//     description: "",
+//     tools: [],
+//     role: '',
+//     code: '',
+//     demo: '',
+// },
