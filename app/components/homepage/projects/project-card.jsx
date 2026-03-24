@@ -75,7 +75,7 @@ function ProjectCard({ project }) {
             <a
               href={project.demo}
               target="_blank"
-              className="ml-2 px-2 py-1  text-black rounded"
+              className="ml-2 px-2 py-1  text-green rounded"
             >
               🚀 Live
             </a>
