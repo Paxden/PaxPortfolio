@@ -42,8 +42,8 @@ export const projectsData = [
       "UiVerse",
     ],
     role: "Full Stack Developer (SOLO)",
-    code: "",
-    demo: "",
+    code: "https://github.com/Paxden/PaxVMS",
+    demo: "https://pax-vms.vercel.app/login",
   },
   {
     id: 3,
@@ -63,9 +63,9 @@ export const projectsData = [
       "React",
       "JWT",
     ],
-    code: "",
+    code: "https://github.com/Paxden/PaxSchoolPortal",
     role: "Full Stack Developer (SOLO)",
-    demo: "",
+    demo: "https://pax-school-portal.vercel.app/",
   },
   {
     id: 4,
@@ -86,6 +86,66 @@ export const projectsData = [
     role: "Full Stack Mobile Developer (Solo)",
     code: "",
     demo: "",
+  },
+  {
+    id: 5,
+    name: "Quanby Website",
+    description:
+      " A responsive and visually appealing website for Quanby, a company specializing in smart home automation solutions. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The website features a clean layout, intuitive navigation, and interactive elements to showcase Quanby's products and services effectively. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/zippy-florentine-7db488/",
+  },
+  {
+    id: 6,
+    name: "Tarteel Website",
+    description:
+      "A responsive and visually appealing website for Tarteel, a company specializing in Islamic education and resources. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The website features a clean layout, intuitive navigation, and interactive elements to showcase Tarteel's products and services effectively. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/stunning-haupia-9a2ce1/",
+  },
+  {
+    id: 7,
+    name: "RentCar LandingPage",
+    description:
+      "A responsive and visually appealing landing page for RentCar, a car rental service. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The landing page features a clean layout, intuitive navigation, and interactive elements to effectively showcase RentCar's services and offerings. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/kaleidoscopic-daffodil-503ee8/",
+  },
+  {
+    id: 8,
+    name: "Sushi LandingPage",
+    description:
+      "A responsive and visually appealing landing page for Sushi, a Japanese restaurant. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The landing page features a clean layout, intuitive navigation, and interactive elements to effectively showcase Sushi's services and offerings. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/delightful-froyo-ef1ced/",
+  },
+  {
+    id: 9,
+    name: "Hospital website",
+    description:
+      "A responsive and visually appealing website for a hospital, providing information about services, staff, and facilities. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The website features a clean layout, intuitive navigation, and interactive elements to effectively showcase the hospital's offerings. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/stellar-nougat-720f52/",
+  },
+  {
+    id: 10,
+    name: "FXPayDay website",
+    description:
+      "A responsive and visually appealing website for FXPayDay, providing information about services, staff, and facilities. I designed and developed the frontend using React.js and Bootstrap to create an engaging user experience. The website features a clean layout, intuitive navigation, and interactive elements to effectively showcase the company's offerings. I implemented responsive design principles to ensure optimal performance across various devices and screen sizes, providing visitors with a seamless browsing experience.",
+    tools: ["React Js", "Bootstrap"],
+    role: "Frontend Developer (Solo)",
+    code: "",
+    demo: "https://app.netlify.com/projects/lucky-taffy-6259d5/",
   },
 ];
 
