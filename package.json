@@ -1,6 +1,5 @@
 {
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +8,17 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=18.x"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
-    "@next/third-parties": "15.1.1",
     "axios": "^1.6.8",
     "lottie-react": "^2.4.1",
     "next": "^16.2.1",
     "nodemailer": "^6.9.15",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.11.0",
@@ -27,7 +28,7 @@
   "devDependencies": {
     "autoprefixer": "latest",
     "eslint": "latest",
-    "eslint-config-next": "15.1.1",
+    "eslint-config-next": "16.2.1",
     "postcss": "latest",
     "sass": "^1.69.5",
     "tailwindcss": "latest"
