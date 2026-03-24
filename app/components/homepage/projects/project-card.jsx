@@ -57,20 +57,30 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{" " + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
-          {project.code && (
-            <div className="ml-4 lg:ml-8 mr-2">
-              <span className="text-white">code:</span>
-              <a
-                href={project.code}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 underline ml-2"
-              >
-                View Code
-              </a>
-              <span className="text-gray-400">,</span>
-            </div>
-          )}
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">code:</span>
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline ml-2"
+            >
+              View Code
+            </a>
+            <span className="text-gray-400">,</span>
+          </div>
+
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">demo:</span>
+            <a
+              href={project.demo}
+              target="_blank"
+              className="ml-2 px-2 py-1  text-black rounded"
+            >
+              🚀 Live
+            </a>
+            <span className="text-gray-400">,</span>
+          </div>
           <div>
             <span className="text-gray-400">{`};`}</span>
           </div>
